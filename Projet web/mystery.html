@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nombre Mystère</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>🔢 Nombre Mystère (1 à 100)</h1>
+  <p id="pseudo-affiche"></p>
+
+  <input type="number" id="guess" placeholder="Entrez un nombre..." min="1" max="100">
+  <button onclick="tester()">Tester</button>
+
+  <p id="feedback"></p>
+  <p id="tentatives">Tentatives : 0</p>
+  <p id="meilleur-score"></p>
+
+  <a href="index.html">⬅️ Retour</a>
+  <script src="js/mystery.js"></script>
+</body>
+</html>

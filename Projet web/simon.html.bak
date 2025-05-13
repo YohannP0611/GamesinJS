@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Simon 32</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>🧠 Simon 32</h1>
+  <p id="pseudo-affiche"></p>
+  <p id="score">Score : 0</p>
+  <p id="meilleur-score"></p>
+  <div id="grille-simon"></div>
+  <p id="info"></p>
+  <a href="index.html">⬅️ Retour</a>
+
+  <script src="js/simon.js"></script>
+</body>
+</html>

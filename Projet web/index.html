@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Jeux JS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>🎮 Mini Jeux en JavaScript</h1>
+
+  <div id="pseudo-form">
+    <p>Entre ton pseudo pour commencer :</p>
+    <input type="text" id="pseudo-input" placeholder="Ton pseudo...">
+    <button onclick="savePseudo()">Valider</button>
+    <p id="message"></p>
+  </div>
+
+  <section id="jeux" style="display: none;">
+    <p id="message-bienvenue"></p>
+    <h2>Choisissez un jeu</h2>
+    <div class="grid">
+      <a href="pfc.html" class="jeu">Pierre-Feuille-Ciseaux</a>
+      <a href="quiz.html" class="jeu">Quiz JS</a>
+      <a href="simon.html" class="jeu">Simon 32</a>
+      <a href="reflex.html" class="jeu">Réflexes</a>
+      <a href="click10.html" class="jeu">Clics en 10s</a>
+      <a href="reflex-trap.html" class="jeu">Réflexes + Pièges</a>
+      <a href="mystery.html" class="jeu">Nombre mystère</a>
+      <a href="game2048.html" class="jeu">2048</a>
+      <a href="snake.html" class="jeu">Snake</a>
+      <a href="morpion.html" class="jeu">Morpion</a>
+      <a href="scores.html" class="jeu">Voir les scores 🏆</a>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

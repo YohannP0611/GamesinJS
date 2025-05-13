@@ -1,0 +1,23 @@
+function savePseudo() {
+  const pseudo = document.getElementById('pseudo-input').value.trim();
+  if (pseudo === "") {
+    document.getElementById('message').textContent = "⚠️ Veuillez entrer un pseudo.";
+    return;
+  }
+
+  localStorage.setItem("pseudo", pseudo);
+  afficherBienvenue(pseudo);
+}
+
+function afficherBienvenue(pseudo) {
+  document.getElementById("message").textContent = `Bienvenue, ${pseudo} ! Choisissez un jeu.`;
+  document.getElementById("pseudo-form").style.display = "none";
+  document.getElementById("jeux").style.display = "block";
+}
+
+window.onload = () => {
+  const pseudo = localStorage.getItem("pseudo");
+  if (pseudo) {
+    afficherBienvenue(pseudo);
+  }
+};
