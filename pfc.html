@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pierre-Feuille-Ciseaux</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-neon">
+  <h1>Pierre-Feuille-Ciseaux</h1>
+  <img src="img/pfc.png" alt="PFC">
+<a href="index.html" class="header-btn">⬅️ Retour</a>
+
+</header>
+
+  <p id="pseudo-affiche" class="info-texte"></p>
+
+  <div class="choices">
+    <button onclick="jouer('pierre')">🪨 Pierre</button>
+    <button onclick="jouer('feuille')">📄 Feuille</button>
+    <button onclick="jouer('ciseaux')">✂️ Ciseaux</button>
+  </div>
+
+  <p id="choix-ordi"></p>
+<div class="centre-score">
+  <p id="resultat" class="score-affiche"></p>
+</div>
+  <p id="score-actuel"></p>
+<div class="centre-score">
+  <p id="meilleur-score" class="score-affiche"></p>
+</div>
+  
+
+
+  <script src="js/pfc.js"></script>
+</body>
+</html>

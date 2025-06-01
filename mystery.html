@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nombre Mystère</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-neon">
+  <h1>Nombre Mystère</h1>
+  <img src="img/mystere.png" alt="Mystery">
+<a href="index.html" class="header-btn">⬅️ Retour</a>
+
+</header>
+
+  <p id="pseudo-affiche" class="info-texte"></p>
+
+  <input type="number" id="guess" placeholder="Entrez un nombre..." min="1" max="100">
+  <button onclick="tester()">Tester</button>
+
+  <p id="feedback"></p>
+  <p id="tentatives">Tentatives : 0</p>
+<div class="centre-score">
+  <p id="meilleur-score" class="score-affiche"></p>
+</div>
+
+  
+
+  <script src="js/mystery.js"></script>
+</body>
+</html>

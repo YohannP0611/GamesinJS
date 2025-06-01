@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Jeux JS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="header-neon">
+  <h1>Mini-jeux en Javascript</h1>
+</header>
+
+
+  <div id="pseudo-form">
+    <p>Entre ton pseudo pour commencer :</p>
+    <input type="text" id="pseudo-input" placeholder="Ton pseudo...">
+    <button onclick="savePseudo()">Valider</button>
+    <p id="message"></p>
+  </div>
+
+  <section id="jeux" style="display: none;">
+    <p id="message-bienvenue"></p>
+    <div class="grid">
+      <a href="pfc.html" class="card-jeu" style="background-image: url('img/pfc.png');">
+        <span>Pierre Feuille Ciseaux</span>
+      </a>
+      <a href="quiz.html" class="card-jeu" style="background-image: url('img/quizz.png');">
+        <span>Quiz JS</span>
+      </a>
+      <a href="simon.html" class="card-jeu" style="background-image: url('img/simon.png');">
+        <span>Simon 32</span>
+      </a>
+      <a href="reflex.html" class="card-jeu" style="background-image: url('img/reflexe.png');">
+        <span>Réflexes</span>
+      </a>
+      <a href="click10.html" class="card-jeu" style="background-image: url('img/click.png');">
+        <span>Clics en 10s</span>
+      </a>
+      <a href="reflex-trap.html" class="card-jeu" style="background-image: url('img/trap.png');">
+        <span>Réflexes + Pièges</span>
+      </a>
+      <a href="mystery.html" class="card-jeu" style="background-image: url('img/mystere.png');">
+        <span>Nombre Mystère</span>
+      </a>
+      <a href="game2048.html" class="card-jeu" style="background-image: url('img/2048.png');">
+        <span>2048</span>
+      </a>
+      <a href="snake.html" class="card-jeu" style="background-image: url('img/snake.png');">
+        <span>Snake</span>
+      </a>
+      <a href="morpion.html" class="card-jeu" style="background-image: url('img/morpion.png');">
+        <span>Morpion</span>
+      </a>
+      <a href="scores.html" class="card-jeu" style="background-image: url('img/score.png');">
+        <span>Voir les scores</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Tous droits réservés - Valentin DUBRULLE & Yohann POUILLIEUTE - Efrei Paris</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
